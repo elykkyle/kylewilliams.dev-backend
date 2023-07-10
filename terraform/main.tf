@@ -202,3 +202,10 @@ resource "aws_apigatewayv2_stage" "visitor_count" {
 output "invoke_url" {
   value = aws_apigatewayv2_stage.visitor_count.invoke_url
 }
+output "api_uri" {
+  value = aws_apigatewayv2_api.visitor_count.api_endpoint  
+}
+
+output "api_id" {
+  value = aws_apigatewayv2_api.visitor_count.id  
+}
