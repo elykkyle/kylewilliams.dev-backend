@@ -1,0 +1,6 @@
+{
+    "python.terminal.launchArgs": [],
+    "python.analysis.extraPaths": [
+        "./lambda/src"
+    ]
+}
